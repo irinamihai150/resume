@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at 10% 20%, rgb(244, 186, 186) 0%, rgb(194, 157, 231) 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+img {
+  margin-left: 2em;
+}
+.full {
+  width: 50%;
+  min-height: 100px;
+  background-color:rgb(180, 178, 178);
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+
+.left {
+  position: initial;
+  background-color: rgb(180, 178, 178);
+  padding: 20px;
+}
+
+.right {
+  position: initial;
+}
+p {
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+li {
+  padding-left: 2em;
+}
+th , td {
+  padding-bottom: 1em;
+  padding-left: 2em;
+
+}
+h2 {
+  padding-left: 2em;
+}
+h3 {
+  padding-left: 2em;
+}
+.image,
+.contact,
+.skills,
+.language,
+.hobbies,
+.title,
+.summary,
+.experince,
+.education,
+.project {
+  margin-bottom: 30px;
+}
+ul {
+  list-style:none ;
+}
+/* h2 {
+  background-color: rgb(122, 200, 245);
+} */
