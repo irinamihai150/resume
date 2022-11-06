@@ -15,9 +15,9 @@ img {
   margin-left: 2em;
 }
 .full {
-  width: 50%;
+  width: 60%;
   min-height: 100px;
-  background-color:rgb(180, 178, 178);
+  background-color:white;
   margin: 0px;
   display: grid;
   grid-template-columns: 2fr 4fr;
@@ -25,7 +25,7 @@ img {
 
 .left {
   position: initial;
-  background-color: rgb(180, 178, 178);
+  background-color: white;
   padding: 20px;
 }
 
@@ -46,7 +46,8 @@ th , td {
 
 }
 h2 {
-  padding-left: 2em;
+  
+  padding-bottom: 1em;
 }
 h3 {
   padding-left: 2em;
@@ -65,7 +66,13 @@ h3 {
 }
 ul {
   list-style:none ;
+  text-align: left;
 }
 /* h2 {
   background-color: rgb(122, 200, 245);
 } */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
